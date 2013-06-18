@@ -20,7 +20,7 @@ describe "Static pages" do
     end
   
   describe "Help Page" do
-    before { visit help_path}
+    before { visit help_path }
     
     let(:heading) { 'Help' }
     let(:page_title) { 'Help' }
